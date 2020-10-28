@@ -1,5 +1,6 @@
 import React from 'react';
 import './Community.css';
+import commSVG from '../assets/comm.svg';
 
 const Community = () => {
 	return (
@@ -11,6 +12,7 @@ const Community = () => {
 					your investing journey!
 				</h5>
 				<button className="cmm-btn">start your journey</button>
+				<img id="svg" src={commSVG} alt="svg" />
 			</div>
 		</section>
 	);
