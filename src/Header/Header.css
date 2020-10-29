@@ -78,3 +78,18 @@ main .head-left .news p {
 	text-transform: capitalize;
 	color: rgba(97, 91, 91, 0.69);
 }
+@media (max-width: 760px) {
+	main {
+		flex-direction: column;
+	}
+	main .head-left {
+		width: 100%;
+		text-align: center;
+		padding: 10px;
+	}
+	.cta-btn {
+		width: 100%;
+		padding: 20px;
+		font-size: 25px;
+	}
+}

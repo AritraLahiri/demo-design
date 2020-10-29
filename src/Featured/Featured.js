@@ -1,29 +1,29 @@
 import React from 'react';
-import './Feature.css';
+import styles from './Feature.module.css';
 import featurePic from '../assets/feature.jpg';
 const Featured = () => {
 	return (
-		<section className="feature">
-			<h1 className="feature-title">
-				<span className="feature-span">Featured</span> in:
+		<section className={styles.feature}>
+			<h1 className={styles.featuretitle}>
+				<span className={styles.featurespan}>Featured</span> in:
 			</h1>
-			<div className="parent">
-				<div className="feat feat-1">
+			<div className={styles.parent}>
+				<div className={styles.feat}>
 					<img src={featurePic} alt="feature" />
 				</div>
-				<div className="feat feat-2">
+				<div className={styles.feat}>
 					<img src={featurePic} alt="feature" />
 				</div>
-				<div className="feat feat-3">
+				<div className={styles.feat}>
 					<img src={featurePic} alt="feature" />
 				</div>
-				<div className="feat feat-4">
+				<div className={styles.feat}>
 					<img src={featurePic} alt="feature" />
 				</div>
-				<div className="feat feat-5">
+				<div className={styles.feat}>
 					<img src={featurePic} alt="feature" />
 				</div>
-				<div className="feat feat-6">
+				<div className={styles.feat}>
 					<img src={featurePic} alt="feature" />
 				</div>
 			</div>

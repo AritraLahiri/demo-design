@@ -2,7 +2,6 @@
 	width: 100%;
 	height: 100%;
 	background: rgba(123, 49, 244, 0.66);
-
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -38,4 +37,13 @@ a {
 .nav-item {
 	padding: 0;
 	height: 100%;
+}
+
+@media (max-width: 760px) {
+	.nav {
+		flex-direction: column;
+	}
+	.nav-head {
+		width: 100%;
+	}
 }

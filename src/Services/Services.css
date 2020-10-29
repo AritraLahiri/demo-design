@@ -33,10 +33,10 @@
 }
 .parent {
 	display: grid;
-	grid-template-areas: "section-1 section-2" "section-1 section-3";
 	margin-top: 90px;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-areas: "section-1 section-2" "section-1 section-3";
 }
 .section-1 {
 	grid-area: section-1;
@@ -106,4 +106,16 @@
 	padding: 20px;
 	position: relative;
 	top: 25%;
+}
+
+@media (max-width: 760px) {
+	.services-head {
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+
+	.service-span {
+		font-size: 40px;
+	}
 }

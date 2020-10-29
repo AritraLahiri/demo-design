@@ -1,10 +1,8 @@
 .feature {
 	width: 100%;
 	padding: 40px;
-	height: 100vh;
-	margin: 20px auto;
 }
-.feature-title {
+.featuretitle {
 	text-align: center;
 	font-style: normal;
 	font-weight: 300;
@@ -13,8 +11,9 @@
 	letter-spacing: 0.15em;
 	text-transform: capitalize;
 	color: #000000;
+	margin-bottom: 50px;
 }
-.feature-span {
+.featurespan {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
@@ -25,8 +24,7 @@
 }
 .parent {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 .feat {
 	width: 406px;

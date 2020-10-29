@@ -53,3 +53,15 @@
 	background-color: #f57e28;
 	color: #ffffff;
 }
+
+@media (max-width: 760px) {
+	.comm-title {
+		font-size: 30px;
+	}
+	.comm-sub-title {
+		font-size: 18px;
+	}
+	.cmm-btn {
+		width: 100%;
+	}
+}
